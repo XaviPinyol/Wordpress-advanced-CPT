@@ -1,2 +1,2 @@
 # Wordpress-advanced-CPT
-This repository is for agroup all custom php archives to work specifics CPT in specifics Themes
+This repository is for grouping all custom php files, to work specific CPTs on specific wordpress themes.
