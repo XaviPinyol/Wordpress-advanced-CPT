@@ -40,7 +40,6 @@ for($i=0 ; $i<($num_CPT); $i++){//foreach incremental que repeteix tants com tot
 $client_id=$the_posts[$i]->ID;
 $client_name=$the_posts[$i]->post_title;
 $client_link=get_permalink($client_id);//hem de treure el link mes maco...
-$client_img="aaaaaa/images/all/UtopixStudios-logo.png";//per exemple...
 $client_img=wp_get_attachment_image_src(get_post_thumbnail_id($client_id),'large' );
 
 
