@@ -38,15 +38,7 @@ function cptui_register_my_cpts_trabajos() {
 	$args = array(
 		"label" => __( "Trabajo", "" ),
 		"labels" => $labels,
-		"description" => "<h1>Paginas webs en Mataró y Maresme</h1>
-<h3>A continuación puedes ver algunos ejemplos de <b>diseño web</b>.</h3>
-<p>A pesar de que cada proyecto es único para nosotros, podemos generalizar y agrupar 3 puntos que todas las web tienen.</p>
-<ul class=\"uk-list\">
-<li><i class=\"uk-icon-check uk-text-success\"></i> Adaptabilidad para ordenadores, tabletas y smartphones</li>
-<li><i class=\"uk-icon-check uk-text-success\"></i> Un diseño original, acorde a la marca y al gusto del cliente</li>
-<li><i class=\"uk-icon-check uk-text-success\"></i> Un codigo compacto y limpio para tener cargas de paginas ligeras</li>
-</ul>
-<p>Algunos trabajos han sido <b>omitidos</b> por cuestiones de privacidad, <b>mantenimiento</b> o <b>actualización</b>.</p>",
+		"description" => "<h1>This is a description, and it shows in frontend.</h1>",
 		"public" => true,
 		"publicly_queryable" => true,
 		"show_ui" => true,
